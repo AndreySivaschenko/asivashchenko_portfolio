@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -250,17 +250,14 @@
 			</div>
 			<div class="col-md-4 footer-title">
 				<h2>Write Me</h2>
-				<form method="POST" action="#" class="send-me">
+				<form method="POST" action="submit.php" class="send-me">
 					<input type="text" name="Name" placeholder="Name">
 					<input type="email" name="Email" placeholder="Email">
-					<input type="phone" name="Phone" placeholder="Phone">
 					<textarea placeholder="Messages"></textarea>
 					<div class="send-button">
-						<a href="#">
 							<hr class="send-button__lefthr">
-							<h3>Send</h3>
+							<input id="submit" type="submit" value="Send">
 							<hr class="send-button__righthr">
-						</a>
 					</div>
 
 					<div class="copyright">

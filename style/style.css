@@ -712,9 +712,16 @@ footer{
 	margin:0 auto;
 }
 
-.send-button h3{
+.send-button input{
+	width: 125px;
+	margin-top: 20px;
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff;
+	font-weight: normal;
+	font-family: PoximaNovaRegular;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
 }
 .send-button__lefthr{
 	border:0;
@@ -737,7 +744,7 @@ footer{
 	background: #fff;
 	-webkit-transform: translate(230px,-28px) rotate(98deg); 
 	-ms-transform:translate(230px,-28px) rotate(98deg);
-	transform:translate(93px,-45px) rotate(98deg);
+	transform:translate(96px,-24px) rotate(98deg);
 }
 
 .social{
